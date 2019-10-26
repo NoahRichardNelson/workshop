@@ -1,3 +1,4 @@
+country	year	pop	continent	lifeExp	gdpPercap
 Zimbabwe	1952	3080907	Africa	48.451	406.8841148
 Zimbabwe	1957	3646340	Africa	50.469	518.7642681
 Zimbabwe	1962	4277736	Africa	52.358	527.2721818
