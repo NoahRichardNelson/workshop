@@ -1,2 +1,1 @@
-This is a line that I'm appending to a file
-hello
+This was a line that I appended to a file, then I changed it.
