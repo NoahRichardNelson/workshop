@@ -1,0 +1,501 @@
+  137  git add .
+  138  git cm "updated COCA parsing and added descriptions of tags and which were included"
+  139  cd ..
+  140  python3 pickler.py 
+  141  git status
+  142  git add .
+  143  git cm "update pickling step following prev commit changes to COCA parsing"
+  144  python3 createWordlist.py 
+  145  python3 createWordlist.py 
+  146  python3 createWordlist.py 
+  147  python3 createWordlist.py 
+  148  python3 createWordlist.py 
+  149  python3 createWordlist.py 
+  150  python3
+  151  python3
+  152  python3 createWordlist.py 
+  153  python3 createWordlist.py 
+  154  python3 createWordlist.py 
+  155  python3 createWordlist.py 
+  156  python3 createWordlist.py 
+  157  python3 createWordlist.py 
+  158  python3 createWordlist.py 
+  159  git add .
+  160  git cm "functionalized formatting and removed print statements from createWordist.py; new wordlist output following prev commit changes"
+  161  git push
+  162  git status
+  163  git add .
+  164  git cm "update project phase summary"
+  165  git status
+  166  git push
+  167  cd Desktop/Dissertation/f0/project_phases/A.preparation/
+  168  ls
+  169  python3 createWordlist.py 
+  170  python3 createWordlist.py 
+  171  python3 createWordlist.py 
+  172  python3 createWordlist.py 
+  173  python3 createWordlist.py 
+  174  python3 createWordlist.py 
+  175  python3 createWordlist.py 
+  176  python3 createWordlist.py 
+  177  python3 createWordlist.py 
+  178  python3 createWordlist.py 
+  179  python3 createWordlist.py 
+  180  python3 createWordlist.py 
+  181  python3 createWordlist.py 
+  182  python3 createWordlist.py 
+  183  python3 createWordlist.py 
+  184  python3 createWordlist.py 
+  185  python3 createWordlist.py 
+  186  python3 createWordlist.py 
+  187  python3 createWordlist.py 
+  188  python3 createWordlist.py 
+  189  python3 createWordlist.py 
+  190  python3 createWordlist.py 
+  191  python3 createWordlist.py 
+  192  python3 createWordlist.py 
+  193  python3 createWordlist.py 
+  194  python3 createWordlist.py 
+  195  python3 createWordlist.py 
+  196  python3 createWordlist.py 
+  197  python3 createWordlist.py 
+  198  python3 createWordlist.py 
+  199  python3 createWordlist.py 
+  200  python3 createWordlist.py 
+  201  python3 createWordlist.py 
+  202  python3 createWordlist.py 
+  203  python3 createWordlist.py 
+  204  python3 createWordlist.py 
+  205  python3 createWordlist.py 
+  206  python3 createWordlist.py 
+  207  python3 createWordlist.py 
+  208  python3 createWordlist.py 
+  209  python3 createWordlist.py 
+  210  python3 createWordlist.py 
+  211  python3 createWordlist.py 
+  212  python3 createWordlist.py 
+  213  python3 createWordlist.py 
+  214  python3 createWordlist.py 
+  215  python3 createWordlist.py 
+  216  python3 createWordlist.py 
+  217  python3 createWordlist.py 
+  218  git status
+  219  git add objects.py createWordlist.py wordlist.csv 
+  220  git cm "word and lemma MP info each output in tuples of (orth, phon, cd, exists) with sep exists columns set to true if any mp exists for that mp type (word vs. lemma)"
+  221  python3 createWordlist.py 
+  222  python3 createWordlist.py 
+  223  python3 createWordlist.py 
+  224  python3 createWordlist.py 
+  225  python3 createWordlist.py 
+  226  python3 createWordlist.py 
+  227  python3 createWordlist.py 
+  228  python3 createWordlist.py 
+  229  python3 createWordlist.py 
+  230  python3 createWordlist.py 
+  231  python3 createWordlist.py 
+  232  git status
+  233  git add createWordlist.py wordlist.csv 
+  234  git cm "fixed some small bugs and reformatted output of wordlist creation"
+  235  git add .
+  236  git cm "manually picked which lemma to apply when the choice could be made. Updated project phase summary to reflect manual edits"
+  237  git push
+  238  sudo rm -rf /Applications/Chess.app/
+  239  brew help
+  240  brew --version
+  241  cd /usr/local/
+  242  ls
+  243  echo $PATH
+  244  sudo nano /etc/paths
+  245  echo $PATH
+  246  nano ~/.bash_profile 
+  247  brew help
+  248  brew upgrade
+  249  xcode-select --install
+  250  brew update
+  251  brew upgrade
+  252  python --version
+  253  brew install zsh
+  254  brew cask install iterm2
+  255  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  256  ls
+  257  ls
+  258  date
+  259  date -u
+  260  date u
+  261  date-u
+  262  head
+  263  head example.txt
+  264  cd Desktop/workshop/
+  265  head example.txt
+  266  cd ~
+  267  head -h
+  268  head --help
+  269  man head
+  270  git diff --help
+  271  date --help
+  272  man date
+  273  man pwd
+  274  man git diff
+  275  ls ~/Desktop/workshop/unix_intro/
+  276  cd ~/Desktop/workshop/unix_intro/
+  277  head example.txt 
+  278  head notes.txt
+  279  ls
+  280  ls experiment/
+  281  head experiment/notes.txt 
+  282  ls
+  283  head example.txt 
+  284  cd experiment/
+  285  pwd
+  286  ls
+  287  head notes.txt
+  288  cd ..
+  289  pwd
+  290  ls
+  291  pwd
+  292  tail example.txt 
+  293  less example.txt 
+  294  wc example.txt 
+  295  man wc
+  296  wc -l example.txt 
+  297  ls
+  298  cp example.txt example_copy.txt
+  299  ls
+  300  ls data/
+  301  cp example.txt data/example.txt
+  302  ls data/
+  303  cp example.txt data/
+  304  ls data/
+  305  ls
+  306  cp experiment/notes.txt .
+  307  ls
+  308  ls experiment/
+  309  mv example_copy.txt experiment/
+  310  ls
+  311  ls experiment/
+  312  ls
+  313  mv notes.txt notes_old.txt
+  314  ls
+  315  rm notes_old.txt 
+  316  nano sample_names.txt
+  317  ls
+  318  head sample_names.txt 
+  319  mkdir subset
+  320  rmdir subset/
+  321  rmdir experiment/
+  322  wc -l example.txt 
+  323  ls
+  324  ls | wc -l
+  325  ls data/all_samples/
+  326  ls data/all_samples/ | wc -l
+  327  ls
+  328  ls > directory_contents.txt
+  329  ls
+  330  head directory_contents.txt 
+  331  ls experiment/ > directory_contents.txt 
+  332  head directory_contents.txt 
+  333  ls >> directory_contents.txt 
+  334  head directory_contents.txt 
+  335  ls *.txt
+  336  cd data/all_samples/
+  337  ls
+  338  ls | wc -l
+  339  ls *.txt | wc -l
+  340  ls *.tsv | wc -l
+  341  ls *.fq | wc -l
+  342  mkdir fastq_files
+  343  ls fastq_files/
+  344  ls *.fq
+  345  mv *.fq fastq_files/
+  346  ls fastq_files/
+  347  ls | wc -l
+  348  history | tail
+  349  history | less
+  350  ls
+  351  mkdir text_files/
+  352  mkdir tsv_files/
+  353  mv *.txt text_files/
+  354  mv *.tsv tsv_files/
+  355  ls
+  356  cd fastq_files/
+  357  ls sample_1*.fq
+  358  ls sample_1?.fq
+  359  cd ..
+  360  cd ..
+  361  cd ..
+  362  ls
+  363  cd six_commands/
+  364  head gene_annotations.tsv 
+  365  head -n 1 gene_annotations.tsv 
+  366  wc -l gene_annotations.tsv 
+  367  cur -f 1 gene_annotations.tsv 
+  368  cut -f 1 gene_annotations.tsv 
+  369  cut -f 1 gene_annotations.tsv | head
+  370  cut -f 1,3 gene_annotations.tsv | head
+  371  cut -f 1-3 gene_annotations.tsv | head
+  372  cut -f 1-3 gene_annotations.csv | head
+  373  cut -f 1-3 example_gene_annotations.csv | head
+  374  cut -f 1-3 -d , example_gene_annotations.csv | head
+  375  ls
+  376  head -n 1 gene_annotations.tsv 
+  377  cut -f 1,3 gene_annotations.tsv > IDs_and_annotations.tsv
+  378  ls
+  379  head IDs_and_annotations.tsv 
+  380  cut -f 1,4 gene_annotations.tsv > IDs_and_annotations.tsv
+  381  ls
+  382  head IDs_and_annotations.tsv 
+  383  head colors.txt 
+  384  grep blue colors.txt 
+  385  grep re colors.txt 
+  386  grep black colors.txt 
+  387  grep K09765 gene_annotations.tsv 
+  388  grep K18979 gene_annotations.tsv 
+  389  grep K18979 gene_annotations.tsv | cut -f 2
+  390  grep -c K18979 gene_annotations.tsv 
+  391  head colores.txt 
+  392  paste colors.txt colores.txt 
+  393  head genes_and_seqs.tsv 
+  394  less -S genes_and_seqs.tsv 
+  395  paste gene_annotations.tsv genes_and_seqs.tsv | head -n 1
+  396  paste gene_annotations.tsv genes_and_seqs.tsv | cut -f 1-4,6- | head -n 2
+  397  my_var=ANGUS
+  398  echo $my_var
+  399  echo my_var
+  400  my_new_var="Tucson, Arizona, USA"
+  401  echo $my_new_var 
+  402  cd ..
+  403  mkdir for_loops
+  404  cd for_loops/
+  405  ls
+  406  for item in cat dog ukulele; do echo $item; done
+  407  for item in cat dog ukulele; do echo $item; echo $item >> words.txt; done
+  408  ls
+  409  head words.txt 
+  410  cat words.txt 
+  411  for item in $(cat words.txt); do echo $item; done
+  412  echo $(cat words.txt)
+  413  cd ..
+  414  cd six_commands/
+  415  ls
+  416  cd ..
+  417  cp six_commands/genes_and_seqs.tsv .
+  418  ls
+  419  head -n 1 genes_and_seqs.tsv 
+  420  cut -f 1 genes_and_seqs.tsv | tail -n +2 > ids.tmp
+  421  cut -f 3 genes_and_seqs.tsv | tail -n +2 > seqs.tmp
+  422  head ids.tmp 
+  423  head seqs.tmp 
+  424  cd ~
+  425  ls
+  426  cd Desktop/
+  427  ls
+  428  rm -r workshop/
+  429  sudo brew update nano
+  430  brew update nano
+  431  brew upgrade nano
+  432  which nano
+  433  nano --version
+  434  ls /usr/bin/nano
+  435  ls /usr/bin/nano/
+  436  ls /usr/bin/
+  437  which git
+  438  ls /usr/local/bin | grep nano
+  439  find nano /usr/
+  440  cd ~/Desktop/
+  441  mkdir workshop
+  442  cd workshop
+  443  mkdir git_lesson
+  444  ls
+  445  cd git lesson
+  446  cd git_lesson
+  447  pwd
+  448  mkdir temp
+  449  ls
+  450  cd temp
+  451  git init
+  452  ls
+  453  man ls
+  454  ls -a
+  455  rm -r .git/
+  456  ls -a
+  457  cd ..
+  458  rm -r temp/
+  459  cd ..
+  460  pwd
+  461  ls
+  462  git init
+  463  git config --global user.name "Noah Richard Nelson"
+  464  git config --global user.email "noah.nelson.11@gmail.com"
+  465  git add --all
+  466  git commit --message "initialize the workshop directory as a repository"
+  467  git status
+  468  ls
+  469  git add --all
+  470  git status
+  471  cd git_lesson
+  472  touch test.txt
+  473  cd ..
+  474  git status
+  475  git add --all
+  476  git commit --message "initialize the workshop directory as a repository"
+  477  ls
+  478  cd ~/Desktop/workshop/git_lesson/
+  479  ls
+  480  mv test.txt practice.txt
+  481  ls
+  482  git status
+  483  git add practice.txt
+  484  git commit --message "practice committing changes"
+  485  git status
+  486  git add .
+  487  git commit -m "..."
+  488  git rebase -i
+  489  git status
+  490  echo "I am adding a line to practice.txt using '>>' from the command line" >> practice.txt
+  491  git status
+  492  git diff
+  493  git add practice.txt 
+  494  git status
+  495  git commit --message "append line to file"
+  496  git status
+  497  git log
+  498  pwd
+  499  cd ~/Desktop/workshop/
+  500  pwd
+  501  nano ~/.bash_history 
+  502  cd Desktop/workshop/
+  503  ls
+  504  cd unix_intro/
+  505  ls
+  506  pwd
+  507  cd ..
+  508  pwd
+  509  mkdir git_lesson
+  510  cd git_lesson/
+  511  ls
+  512  git init
+  513  ls
+  514  ls -a
+  515  pwd
+  516  rmdir .git
+  517  rm -r .git
+  518  ls -a
+  519  cd ..
+  520  pwd
+  521  ls
+  522  git init
+  523  ls -a
+  524  git config --global user.name "
+Noah Richard Nelson"
+  525  git config --global user.name "
+  526  git config --global user.name "Noah Richard Nelson"
+  527  git config --global user.email  "noah.nelson.11@gmail.com"
+  528  git config --list
+  529  which .git.config
+  530  ls
+  531  ls -a
+  532  cd .git
+  533  ls
+  534  cd config
+  535  nano config
+  536  cd /usr/local/bin/git
+  537  cd /usr/local/bin
+  538  ls
+  539  nano git
+  540  cd ~/Desktop/workshop
+  541  pwd
+  542  git add --all
+  543  git commit --message "initialize the workshop directory as a repository"
+  544  pwd
+  545  cd git_lesson/
+  546  ls
+  547  touch practice.txt
+  548  ls
+  549  head practice.txt 
+  550  git add practice.txt 
+  551  git commit --message "practiced committing new file"
+  552  git status
+  553  echo "This is a line that I'm appending to a file" >> practice.txt 
+  554  cat practice.txt 
+  555  git status
+  556  git add practice.txt 
+  557  git status
+  558  git commit --message "more git practice and using >>"
+  559  echo "hello" >> practice.txt 
+  560  git status
+  561  git diff
+  562  git add practice.txt 
+  563  git diff
+  564  nano practice.txt 
+  565  git diff
+  566  git status
+  567  git commit --message "more practice"
+  568  git log
+  569  nano practice.txt 
+  570  git status
+  571  git diff practice.txt 
+  572  git add practice.txt 
+  573  touch file.txt
+  574  git add file.txt 
+  575  git commit --message "I changed practice and added a new file in one commit"
+  576  git log
+  577  clear 
+  578  git remote add origin https://github.com/NoahRichardNelson/workshop.git
+  579  git push -u origin master
+  580  git remote --verbose
+  581  pwd
+  582  git pull
+  583  ls
+  584  nano file.txt 
+  585  git status
+  586  git add file.txt 
+  587  git status
+  588  git commit --message "edit file"
+  589  git log
+  590  git push
+  591  cd ..
+  592  ls
+  593  cd unix_challenge/
+  594  ls
+  595  cat Denmark.cc.txt 
+  596  cat country.txt 
+  597  clear
+  598  ls
+  599  ls
+  600  for item in *.cc.txt; do cat country.txt > all_countries.txt; cat $item >> all_countries.txt; done
+  601  cat all_countries.txt 
+  602  for item in **.cc.txt; do cat $item >> country.txt; done
+  603  cat country.txt 
+  604  head country.txt 
+  605  for file in *.cc.txt; do cat $file > country.txt; done
+  606  head country.txt 
+  607  git status
+  608  git restore country.txt
+  609  git status
+  610  head country.txt 
+  611  ls
+  612  cat country.txt 
+  613  cat *.cc.txt >> country.txt 
+  614  cat country.txt 
+  615  grep 1997 country.txt > 1997.txt
+  616  cat 1997.txt 
+  617  grep -w 1997 country.txt > 1997.txt
+  618  cat 1997.txt 
+  619  man grep
+  620  cut -f 2 country.txt | grep 1997
+  621  ls
+  622  nano loop.sh
+  623  mv loop.shy loop.sh
+  624  cat loop.sh 
+  625  git statu
+  626  git status
+  627  git restore country.txt 
+  628  cat country.txt 
+  629  bash loop.sh 
+  630  cat country.txt 
+  631  nano loop.sh 
+  632  bash loop.sh 
+  633  nano loop.sh 
+  634  bash loop.sh 
+  635  cd ..
+  636  history > history_git_and_more_unix.txt
